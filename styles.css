@@ -56,6 +56,10 @@ body {
     }
     .main {
         height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
     .main__title {
         color: white;
@@ -259,6 +263,29 @@ body {
 }
 .footer a:hover {
     text-decoration: underline;
+}
+.error {
+    height: 479px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes pulse{
+    0% {transform: scale(1); color: white;}
+    50% {transform: scale(2); color: rgb(202, 11, 11);}
+    100% {transform: scale(1); color: white;}
+}
+.error-animation { 
+    font-size: 100px;
+    color: white;
+    animation-name: pulse;
+    animation-duration: 1.5s;
+}
+.error p {
+    color: white;
+    font-size: 20px;
 }
 
 @media only screen and (max-width: 600px) {
