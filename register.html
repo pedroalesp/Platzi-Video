@@ -8,16 +8,16 @@
 </head>
 <body>
     <header class="header">
-        <img class="header__img" src="https://raw.githubusercontent.com/platzi/PlatziVideo/feature/react/src/assets/static/logo-platzi-video-BW2.png" alt="logo">
+        <img tabindex="0" class="header__img" src="https://raw.githubusercontent.com/platzi/PlatziVideo/feature/react/src/assets/static/logo-platzi-video-BW2.png" alt="logo">
     </header>
     <section class="register login">
         <section class="register__container login__container">
-            <h2>Regístrate</h2>
+            <h2 tabindex="0">Regístrate</h2>
             <form class="register__container--form login__container--form">
-                    <input type="text" class="input" placeholder="Nombre">
-                    <input type="text" class="input" placeholder="Correo">
-                    <input type="password" class="input" placeholder="Contraseña">
-                    <input type="password" class="input" placeholder="Confirmar contraseña">
+                    <input aria-label="Nombre" type="text" class="input" placeholder="Nombre">
+                    <input aria-label="Correo" type="text" class="input" placeholder="Correo">
+                    <input aria-label="Contraseña"type="password" class="input" placeholder="Contraseña">
+                    <input aria-label="Confirmar contraseña" type="password" class="input" placeholder="Confirmar contraseña">
                 <button class="button">Registrarme</button>
             </form>
             <a class="register__container--sesion" href="/">Inicia Sesión</a>

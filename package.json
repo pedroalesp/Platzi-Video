@@ -1,0 +1,28 @@
+{
+  "name": "platziVideo",
+  "version": "1.0.0",
+  "description": "Platzi Video is the final project of the frontend developer course of Platzi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroalesp/Platzi-Video.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedroalesp/Platzi-Video/issues"
+  },
+  "homepage": "https://github.com/pedroalesp/Platzi-Video#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@storybook/html": "^5.3.19",
+    "babel-loader": "^8.1.0"
+  }
+}
